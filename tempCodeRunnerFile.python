@@ -1,0 +1,66 @@
+'''Shoxiddinov Sanjarxoja variant-A'''
+'''1-masala'''
+# class Car:
+#     def __init__(self, name, color, price):
+#         self.name = name
+#         self.color = color
+#         self.price = price
+    
+#     def get_name(self):
+#         return self.name
+    
+#     def get_price(self):
+#         return self.price
+    
+# car = Car('porche','black',350000)
+# print(car.get_name())
+
+'''2-misol'''
+# class User:
+#     def __init__(self,username,age,email):
+#         self.username = username
+#         self.age = age
+#         self.__email = email
+
+#     @property
+#     def get_email(self):
+#         return self.__email      
+
+# user = User('shakhiddinovv',18,'sanjar050@bk.ru')
+# print(user.get_email)  
+
+'''3-misol'''
+# class Animal:
+#     def __init__(self, name):
+#         self.name = name
+    
+#     def speak(self):
+#         pass
+
+# class cow(Animal):
+#     def speak(self):
+#         return "Muuu"
+    
+# class Dog(cow):
+#     def speak(self):
+#         return "Woof"
+
+# class Cat(cow):
+#     def speak(self):
+#         return "Meow"
+
+
+# dog = Dog("Buddy")
+# print(dog.speak())
+
+'''4-misol'''
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+
+    def get_info(self):
+        return self.name,self.age
+
+asc = Person('qwerty',12)
+print(asc.get_info())        
